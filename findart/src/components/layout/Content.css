@@ -1,0 +1,9 @@
+.Content { 
+    margin-top: 60px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
