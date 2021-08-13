@@ -1,27 +1,20 @@
-Menu {
-    display: flex;
-    flex-basis: 250px;
-    
-    
-}
-
-.Menu nav {
+nav {
     flex:1;
     
 }
 
-.Menu ul {
+ul {
     
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #A61F2B;
+    background-color: #D97941;
     height: 70px;
     width: 100%;
 }
 
-.Menu li {
+li {
     
     float: left;
     display: inline;
@@ -29,9 +22,9 @@ Menu {
     
 }
 
-.Menu li a {
+li a {
     display: inline-block;
-  color: #ffb151;
+  color: #420000;
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
@@ -39,13 +32,8 @@ Menu {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.Menu li a:hover {
-    background-color: #F26444;
+li a:hover {
+    background-color: #ffb151;
     
 }
 
-.Menu li img {
-    padding: 20px 20px;
-    width: 140px;
-    padding-left: 35px;
-}

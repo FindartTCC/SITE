@@ -1,9 +1,24 @@
 .Content { 
-    margin-top: 60px;
+   
     display: flex;
     flex: 1;
-    justify-content: center;
-    background-color: black;
-    color: white;
+    justify-content: left;
+    background-color:  #ffb151;
+    color:  #420000;
     padding: 30px;
+    height: 100%;
 }
+
+h3 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+h1 {
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+img {
+    width: 300px;
+
+}
+

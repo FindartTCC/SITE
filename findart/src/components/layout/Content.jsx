@@ -11,7 +11,7 @@ const Content = props => (
             <Route exact path="/">
                 <Home />
             </Route>
-            <Route path="/About/:textosobre">
+            <Route path="/About"> 
                 <About />
             </Route>
             <Route path="*">
