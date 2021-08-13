@@ -1,6 +1,7 @@
-# APP
+# Site
 
-Repositório criado para o desenvolvimento da aplicação mobile 
+Repositório criado para o desenvolvimento do site
+
 
 
 Autores: 
