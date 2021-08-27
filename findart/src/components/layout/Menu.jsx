@@ -11,7 +11,7 @@ const Menu = props => (
 
             <ul>
                 <li>
-                <img src={letras} alt="logo"></img></li>
+                <img className="Letras"src={letras} alt="logo"></img></li>
             
                 <li>
                 <Link to="/">Inicial</Link>
@@ -29,7 +29,7 @@ const Menu = props => (
                     <Link to="/Login">Login</Link>
                 </li>
                 <li>
-                    <Link to="/Cadastro">Cadastre-se</Link>
+                    <Link to="/Cadastro">Cadastro</Link>
                 </li>
             </ul>
         </nav>

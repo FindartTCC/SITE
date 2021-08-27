@@ -6,20 +6,7 @@ div {
     width: 100%;
 }
 
-.Categorias {
-    width: 100%;
-    border-radius: 20px;
-}
-.Categorias ul {
-   
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #D97941;
-    height: 72px;
-    width: 100%;
-}
+
 ul {
     
     list-style-type: none;
@@ -37,6 +24,7 @@ li {
     float: left;
     display: inline;
     
+    
 }
 
 li a {
@@ -44,9 +32,8 @@ li a {
   color: #420000;
   text-align: center;
   padding: 20px 20px;
-  margin-left: 0px;
- margin-right: 0px;
- 
+  padding-left: 35px;
+  padding-right: 35px;
   text-decoration: none;
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -66,6 +53,7 @@ h1 {
 h3 {
     font-family:Arial, Helvetica, sans-serif;
     padding-left: 0;
+    font-size: 20px;
 }
 
 .Logo {

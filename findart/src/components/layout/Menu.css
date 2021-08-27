@@ -20,7 +20,11 @@ Menu {
     height: 70px;
     width: 100%;
 }
-
+.Letras {
+    
+  
+    
+}
 .Menu li {
     
     float: left;
@@ -28,6 +32,7 @@ Menu {
     
     
 }
+
 
 .Menu li a {
     display: inline-block;
@@ -40,8 +45,9 @@ Menu {
 }
 
 .Menu li a:hover {
-    background-color: #F26444;
-    
+    background-color: #ffb151;
+    color:  #420000;
+  
 }
 
 .Menu li img {

@@ -7,11 +7,13 @@ import logo from "./../../imgs/logo.png"
 
 const Home = props => (
     <div>
+        <img className="Logo" src={logo} alt="logo"></img>
+        <h3>Findart, divulgação e comércio no meio artístico.</h3>
         <h1>Categorias</h1>
         
         
         <nav>
-        <ul>
+        <ul className="Categorias">
                                 <li>
                 <Link to="/Pintura">Pintura</Link>
                 </li>
@@ -33,7 +35,7 @@ const Home = props => (
             </ul>
             </nav>
             
-        <h3>Findart, divulgação e comércio no meio artístico.</h3>
+        
     </div> 
     
 )
