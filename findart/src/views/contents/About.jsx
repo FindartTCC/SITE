@@ -1,6 +1,10 @@
 import React from "react"
 import {useParams} from 'react-router-dom'
 import './About.css'
+import jose from "./../../imgs/jose.jpeg"
+import rafa from "./../../imgs/rafael.jpeg"
+import math from "./../../imgs/math.jpeg"
+import vitor from "./../../imgs/vitor.jpeg"
 const About = props => {
 
 
@@ -13,10 +17,16 @@ const About = props => {
             <h1>Funcionalidades</h1>
             <h3>Com a criação de uma conta, a pessoa poderá interagir com artistas de diversas partes da região ou do mundo. Assim, verá fotos, vídeos e outras diversas mídias a fim de divulgação. Caso seja da vontade, poderá também acessar um campo de compras ou de bate-papo, para assim, adquirir produtos ou eventos no meio artístico. </h3>
             <h1>Integrantes</h1>
+            
             <h3>Rafael Malaman Pfleger</h3>
+        <img className="Foto" src={rafa} alt="foto"></img>
             <h3>Vitor Augusto dos Santos Lopes</h3>
+        <img className="Foto" src={vitor} alt="foto"></img>
             <h3>Matheus Henrique Secherini</h3>
+        <img className="Foto" src={math} alt="foto"></img>
             <h3>José Mateus Chavare</h3>
+        <img className="Foto" src={jose} alt="foto"></img>
+
            
         </div>
     )

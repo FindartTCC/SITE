@@ -14,22 +14,19 @@ Menu {
     
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    
     overflow: hidden;
     background-color: #A61F2B;
     height: 70px;
     width: 100%;
+    align-content: center;
 }
-.Letras {
-    
-  
-    
-}
+
 .Menu li {
     
     float: left;
     display: inline;
-    
+    align-content: center;
     
 }
 
@@ -47,11 +44,12 @@ Menu {
 .Menu li a:hover {
     background-color: #ffb151;
     color:  #420000;
-  
+    
 }
 
 .Menu li img {
     padding: 20px 20px;
     width: 140px;
     padding-left: 35px;
+    padding-right: 35px;   
 }

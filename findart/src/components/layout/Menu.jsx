@@ -6,10 +6,12 @@ import letras from "./../../imgs/letras.png"
 const Menu = props => (
 
     <aside className="Menu">
+           
         <nav>
         
-
+            
             <ul>
+           
                 <li>
                 <img className="Letras"src={letras} alt="logo"></img></li>
             
@@ -31,6 +33,7 @@ const Menu = props => (
                 <li>
                     <Link to="/Cadastro">Cadastro</Link>
                 </li>
+                
             </ul>
         </nav>
     </aside>

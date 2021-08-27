@@ -8,7 +8,7 @@ import logo from "./../../imgs/logo.png"
 const Home = props => (
     <div>
         <img className="Logo" src={logo} alt="logo"></img>
-        <h3>Findart, divulgação e comércio no meio artístico.</h3>
+        <h4 className="Subtitulo">Findart, divulgação e comércio no meio artístico.</h4>
         <h1>Categorias</h1>
         
         
